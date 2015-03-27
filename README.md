@@ -9,9 +9,7 @@ Instructions:
 4. Inputs and outputs should be directly adjacent to eachother
   Good:
 
-  output prompt
-  
-  input variable
+  output prompt                                                                                                                   input variable
 
   Bad:
   
