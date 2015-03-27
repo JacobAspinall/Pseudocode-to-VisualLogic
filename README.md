@@ -10,6 +10,7 @@ Instructions:
   Good:
 
   output prompt
+  
   input variable
 
   Bad:
