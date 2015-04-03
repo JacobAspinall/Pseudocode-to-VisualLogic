@@ -11,9 +11,7 @@ import javax.swing.JTextArea;
 
 
 
-/** GUI
- * 
- */
+
 public class GUI{
 
 	public static String[] pseudocode;
@@ -25,9 +23,7 @@ public class GUI{
 		
 	}
 	
-/** Creates GUI
- * 
- */
+	
 	public GUI() throws AWTException{
 		
 		JFrame window = new JFrame("Pseudocode to VisualLogic");

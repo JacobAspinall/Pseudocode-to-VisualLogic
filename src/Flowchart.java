@@ -160,7 +160,7 @@ public class Flowchart {
 				continue;
 			}
 			
-			if(line.length() > 7 && line.substring(0, 8).equals("endwhile")){
+			if(line.length() > 7 && (line.substring(0, 8).toLowerCase()).equals("endwhile")){
 				DOWN();
 				DOWN();
 				lineCounts[lineCountsPosition] = 0;
@@ -193,7 +193,7 @@ public class Flowchart {
 				lineCounts[lineCountsPosition] = 0;
 			}
 			
-			if(line.length() > 4 && line.substring(0, 5).equals("endif")){
+			if(line.length() > 4 && (line.substring(0, 5).toLowerCase()).equals("endif")){
 				DOWN();
 				
 				if ( inElse[inElsePosition]){
@@ -605,7 +605,7 @@ public class Flowchart {
 	            case ')': doType(VK_SHIFT, VK_0); break;
 	            case '_': doType(VK_SHIFT, VK_MINUS); break;
 	            case '+': doType(VK_SHIFT, VK_EQUALS); break;
-	            case '\t': doType(VK_TAB); break;
+	            case '\t': ; break;
 	            case '\n': doType(VK_ENTER); break;
 	            case '[': doType(VK_OPEN_BRACKET); break;
 	            case ']': doType(VK_CLOSE_BRACKET); break;
