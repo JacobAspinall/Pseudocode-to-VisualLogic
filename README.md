@@ -1,6 +1,8 @@
 # Pseudocode-to-VisualLogic
 Robot to translate pseudocode into a VisualLogic flowchart.
 
+Created as a homework help tool for CIS-128 at Kirkwood Community College Cedar Rapids, IA
+
 Instructions:
 
 1. Snap VisualLogic to the left side of your screen
